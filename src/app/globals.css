@@ -1,21 +1,54 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+*{
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  background: #ed6363;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+
+.Header{
+  display: flex;
+  background: #74aec3;
+  color: #ffffff;
+  text-align: center;
+  justify-content: center;
+  font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  font-size:20px;
+  padding: 18px;
+  gap: 4%;
+}
+.link{
+  color: #ffffff;
+  font: bold;
+  text-decoration: none;
+}
+.Home{
+  font-size:15px;
+  font:bold;
+  text-align: center;
+  justify-content: center;
+  font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+padding: 20%;
+  color: #ffffff;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.About{
+  font-size:35px;
+  font:bold;
+  text-align: center;
+  font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  justify-content: center;
+padding: 20%;
+  color: #ffffff;
+}
+
+.Contact{
+  font-size:35px;
+  font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+  font:bolder;
+  text-align: center;
+  justify-content: center;
+padding: 20%;
+  color: #ffffff;
 }
